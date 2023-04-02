@@ -1,0 +1,119 @@
+body {
+  background-color: #fffff5;
+  color: #303030;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.recomended {
+  margin-bottom: 150px;
+}
+@media screen and (max-width: 600px) {
+  .recomended {
+    margin-bottom: 50px;
+  }
+}
+.recomended__item {
+  max-width: 1400px;
+  margin: 100px auto 50px;
+  padding: 115px 25px;
+  border-radius: 10px;
+  background-color: #595959;
+  color: #e9e9e9;
+}
+@media screen and (max-width: 600px) {
+  .recomended__item {
+    margin: 40px auto;
+    padding: 40px 25px;
+  }
+}
+.recomended__container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.recomended__title {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 960px) {
+  .recomended__title {
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .recomended__title {
+    margin-bottom: 24px;
+  }
+}
+.recomended__title-date {
+  display: block;
+  font-size: 2rem;
+}
+@media screen and (max-width: 960px) {
+  .recomended__title-date {
+    margin-bottom: 16px;
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .recomended__title-date {
+    font-size: 1.6rem;
+  }
+}
+.recomended__title-text {
+  margin-left: 50px;
+  display: block;
+  text-align: center;
+  font-size: 2.6rem;
+}
+@media screen and (max-width: 960px) {
+  .recomended__title-text {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .recomended__title-text {
+    font-size: 1.6rem;
+    line-height: 3rem;
+  }
+}
+.recomended__video {
+  max-width: 800px;
+  aspect-ratio: 16/8.5;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+@media screen and (max-width: 600px) {
+  .recomended__video {
+    margin-bottom: 24px;
+    margin-right: calc(50% - 50vw);
+    margin-left: calc(50% - 50vw);
+  }
+}
+.recomended__video > iframe {
+  border-radius: 10px;
+  border: 1px solid #333;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 600px) {
+  .recomended__video > iframe {
+    border-radius: 0;
+  }
+}
+.recomended__description {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.recomended__description-text {
+  font-size: 2rem;
+  line-height: 3.2rem;
+}
+@media screen and (max-width: 600px) {
+  .recomended__description-text {
+    font-size: 1.6rem;
+    line-height: 3rem;
+  }
+}/*# sourceMappingURL=recomended_video.css.map */
